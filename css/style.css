@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #000;
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  font-family: 'Overpass';
+  color: hsl(217, 12%, 63%);
+}
+ol,ul {
+  list-style: none;
+}
+.ratingBody {
+  font-size: 1.5rem;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: hsl(213, 19%, 18%);
+  padding: 3rem;
+  height: 55vh;
+  width: 41.5rem;
+  border-radius: 20px;
+}
+.ratingStarLogo {
+  position: relative;
+  line-height: 1;
+  padding: 0.9rem 1.05rem;
+  background-color: hsl(217, 12%, 63%, 0.1);
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: 3.5rem;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 2.5rem;
+}
+.rating-numbers ol {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.rating-numbers ol li {
+  cursor: pointer;
+  background-color: hsl(217, 12%, 63%, 0.1);
+  border-radius: 50%;
+  text-align: center;
+  width: 5.2rem;
+  padding: 1.65rem 0;
+}
+.rating-numbers ol li:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+.rating-numbers ol li.active {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.rating-submit {
+  margin-top: 3rem;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  padding: 1.5rem;
+  border-radius: 3rem;
+}
+
+.submit-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}

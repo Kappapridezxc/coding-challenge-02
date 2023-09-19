@@ -6,44 +6,31 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Interactive rating component</title>
+  <title>Coding Challenge Week 2 | Interactive rating component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="css/style.css" rel="stylesheet" type="text/css" >
 </head>
 <body>
 
-  <!-- Rating state start -->
-
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="ratingBody">
+    <div class="ratingStarLogo">
+      <img src="images/icon-star.svg" alt="icon star">
+    </div>
+    <div class="ratingTxtBlock">
+      <h1>How did we do?</h1>
+      <p>Plese let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    </div>
+    <div class="rating-numbers">
+      <ol>
+        <li class="number">1</li>
+        <li class="number">2</li>
+        <li class="number">3</li>
+        <li class="number">4</li>
+        <li class="number">5</li>
+      </ol>
+    </div>
+    <p class="rating-submit unclickable"><a href="#" class="submit-btn">Submit</a></p>
   </div>
+<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
