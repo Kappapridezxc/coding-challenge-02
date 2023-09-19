@@ -16,6 +16,7 @@ body {
   height: 100vh;
   font-family: 'Overpass';
   color: hsl(217, 12%, 63%);
+  padding: 0 1rem;
 }
 ol,ul {
   list-style: none;
@@ -30,9 +31,9 @@ ol,ul {
   left: 0;
   background-color: hsl(213, 19%, 18%);
   padding: 3rem;
-  height: 55vh;
+  height: 40rem;
   width: 41.5rem;
-  border-radius: 20px;
+  border-radius: 2rem;
 }
 .ratingStarLogo {
   position: relative;
