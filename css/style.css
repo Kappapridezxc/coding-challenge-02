@@ -21,7 +21,7 @@ body {
 ol,ul {
   list-style: none;
 }
-.ratingBody {
+.ratingBody,.ratingComplete {
   font-size: 1.5rem;
   position: absolute;
   margin: auto;
@@ -35,6 +35,12 @@ ol,ul {
   width: 41.5rem;
   border-radius: 3rem;
 }
+.ratingBody {
+  z-index: 1;
+}
+.ratingComplete.show {
+  z-index: 2;
+}
 .ratingStarLogo {
   position: relative;
   line-height: 1;
@@ -44,7 +50,7 @@ ol,ul {
   border-radius: 50%;
   margin-bottom: 3rem;
 }
-h1 {
+.ttl {
   font-size: 2.9rem;
   font-weight: 600;
   color: hsl(0, 0%, 100%);
@@ -92,4 +98,20 @@ h1 {
 .submit-btn:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+}
+.ratingComplete {
+  text-align: center;
+}
+.ratingCompleteImg {
+  margin-top: 2rem;
+}
+.ratingGiven {
+  text-align: center;
+  margin: 2rem 0 4rem;
+  background-color: hsl(217, 12%, 63%, 0.1);
+  padding: 1rem 1.5rem;
+  color: hsl(25, 97%, 53%);
+  display: inline-block;
+  border-radius: 2rem;
+  line-height: 1;
 }

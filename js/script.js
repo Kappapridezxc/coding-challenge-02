@@ -6,7 +6,11 @@
     if (selected == "" || selected == null) {
       alert('Please rate us!'); 
     }else {
-      alert(selected);
+      var rateCompleteCont = document.querySelector('.ratingComplete');
+      var pickedRate = document.getElementById('rate');
+      pickedRate.textContent = selected;
+      rateCompleteCont.classList.add('show');
+      
     }
   });
   function activeNumber(){
