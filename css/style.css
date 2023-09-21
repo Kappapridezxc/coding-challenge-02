@@ -50,15 +50,20 @@ ol,ul {
   border-radius: 50%;
   margin-bottom: 3rem;
 }
+.ratingBody p,
+.ratingComplete p {
+  line-height: 1.5;
+}
 .ttl {
   font-size: 2.9rem;
   font-weight: 600;
   color: hsl(0, 0%, 100%);
   margin-bottom: 1.2rem;
 }
-.ratingBody p {
-  line-height: 1.5;
-}
+.ratingBody .ttl {
+  line-height: 1.3;
+} 
+
 .rating-numbers ol {
   display: flex;
   justify-content: space-between;
@@ -103,11 +108,11 @@ ol,ul {
   text-align: center;
 }
 .ratingCompleteImg {
-  margin-top: 2rem;
+  margin-top: 1.2rem;
 }
 .ratingGiven {
   text-align: center;
-  margin: 2rem 0 4rem;
+  margin: 2.4rem 0 3.5rem;
   background-color: hsl(217, 12%, 63%, 0.1);
   padding: 1rem 1.5rem;
   color: hsl(25, 97%, 53%);
